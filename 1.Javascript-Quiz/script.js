@@ -1,10 +1,10 @@
 
-const correctAnswer = ["D", "B", "C", "B", "D"]; //here this is correct answers "List"
+const correctAnswer = ["D", "B", "C", "B", "D"];
 /**u have to match the selected answer with the above answers */
 const form = document.querySelector(".quiz-form");
 const result = document.querySelector(".result");
 const questions = document.querySelectorAll(".question");
-//console.log(questions[1]);
+
 
 
 form.addEventListener("submit", event => {
